@@ -1,0 +1,20 @@
+// main.scss
+
+@import 'variables';
+
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
