@@ -32,9 +32,17 @@ cd kalandar-blog
 ## The application will be accessible at http://localhost:3000.
 
 ## Building the Docker Image
- docker build -t kalandar-blog .
-docker run -p 3000:3000 kalandar-blog
+   1.  docker build -t kalandar-blog .
+   2.   docker run -p 3000:3000 kalandar-blog
 ## The application will be accessible at http://localhost:3000 (or the appropriate IP address if you are accessing it from another device).
 
 ## happy learinig
 ## cheers!!
+
+## Helpful commands:
+1. docker tag kalandar-blog kala81/blog:latest
+2. Log in to Docker Hub:
+
+docker login
+Push the image:
+docker push kala851/blog:latest
