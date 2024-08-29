@@ -13,7 +13,28 @@ The project is structured as follows:
 
 ## Running the Project Locally
 
-1. Install dependencies:
 
-   ```bash
+## Prerequisites
+
+- **Node.js**: Version 14.x or above
+- **Docker**: Installed and running
+
+## Getting Started
+
+### 1. Clone the repository
+git clone https://github.com/2193306/kalandar-blog.git
+cd kalandar-blog
+
+
+1. Install dependencies:
    npm install
+2. npm start
+## The application will be accessible at http://localhost:3000.
+
+## Building the Docker Image
+ docker build -t kalandar-blog .
+docker run -p 3000:3000 kalandar-blog
+## The application will be accessible at http://localhost:3000 (or the appropriate IP address if you are accessing it from another device).
+
+## happy learinig
+## cheers!!
