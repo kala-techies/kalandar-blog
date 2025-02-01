@@ -22,7 +22,7 @@ The project is structured as follows:
 ## Getting Started
 
 ### 1. Clone the repository
-git clone https://github.com/2193306](https://github.com/kala-techies/kalandar-blog.git
+git clone https://github.com/kala-techies/kalandar-blog.git
 
 cd kalandar-blog
 
